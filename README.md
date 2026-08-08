@@ -1,3 +1,4 @@
+![Image Description](https://i.pinimg.com/1200x/2d/bd/88/2dbd88567eefebdfc01fd3f591574534.jpg)
 # 🚀 C++ Learning Journey
 
 Welcome to my personal roadmap and code repository for mastering **C++**. This repository documents my progression from the fundamentals to advanced systems programming and modern C++ features.
