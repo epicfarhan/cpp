@@ -12,6 +12,14 @@ namespace status{
     string items = "sword";
 }
 
+// typedef
+
+typedef std::string text_t;
+
+//another way
+
+using number_t = int;
+
 // main function
 
 int main(){
@@ -42,6 +50,14 @@ int main(){
 
     const string lastname = " nasim";
     
+    // typedef example
+
+    const text_t fruit = "peaches";
+    const number_t productNumber = 12;
+
+    // add
+
+
 
     cout << x << "\n";
     cout << y << "\n";
@@ -51,6 +67,7 @@ int main(){
     cout << "age : " << info::age << "\n";
     cout << "health : " << health << "\n";
     cout << "items : " << items << "\n";
+    cout << fruit << " : " << productNumber;
 
     return 0;
 }
