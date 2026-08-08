@@ -1,13 +1,15 @@
 #include <iostream>
 //namespaces
 namespace info{
+   using namespace std;
     int age = 20;
-    std::string gender = "male";
+    string gender = "male";
 }
 
 namespace status{
+    using namespace std;
     int health = 100;
-    std::string items = "sword";
+    string items = "sword";
 }
 
 // main function
@@ -15,6 +17,7 @@ namespace status{
 int main(){
 
     using namespace status;
+    using namespace std;
 
     // int
     int x;
@@ -33,21 +36,21 @@ int main(){
 
     // sting
 
-    std::string name = "farhan";
+    string name = "farhan";
 
     // const
 
-    const std::string lastname = " nasim";
+    const string lastname = " nasim";
     
 
-    std::cout << x << "\n";
-    std::cout << y << "\n";
-    std::cout << grade << "\n";
-    std::cout << power << "\n";
-    std::cout << "hello " << name  << lastname << "\n";
-    std::cout << "age : " << info::age << "\n";
-    std::cout << "health : " << health << "\n";
-    std::cout << "items : " << items << "\n";
+    cout << x << "\n";
+    cout << y << "\n";
+    cout << grade << "\n";
+    cout << power << "\n";
+    cout << "hello " << name  << lastname << "\n";
+    cout << "age : " << info::age << "\n";
+    cout << "health : " << health << "\n";
+    cout << "items : " << items << "\n";
 
     return 0;
 }
