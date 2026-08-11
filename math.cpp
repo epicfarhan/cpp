@@ -15,9 +15,20 @@ int  main(){
   //z = round(y); // rounds number
   //z = ceil(y); // raises number to highest
   //z = floor(y); // lowers the number
-  cout << z;
+  //cout << z;
   
- 
+  double sideOne;
+  double sideTwo;
+  double sideThree;
+  
+  cout << "enter side one" << "\n";
+  cin >> sideOne;
+  
+  cout << "enter side two" << "\n";
+  cin >> sideTwo;
+  
+  sideThree = sqrt(pow(sideOne, 2) + pow(sideTwo, 2));
+
 
   return 0;
 }
