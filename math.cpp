@@ -28,7 +28,7 @@ int  main(){
   cin >> sideTwo;
   
   sideThree = sqrt(pow(sideOne, 2) + pow(sideTwo, 2));
-
+  cout << "third side : " << sideThree;
 
   return 0;
 }
