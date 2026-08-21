@@ -27,7 +27,7 @@ int main(){
 
     case '-':
         result = numberOne - numberTwo;
-           cout << result;
+        cout << result;
         break;
 
     case 'x':
